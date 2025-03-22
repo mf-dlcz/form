@@ -9,3 +9,10 @@ body {
 h1, p, form {
   text-align: center;
 }
+
+form {
+  width: 60vw;
+  max-width: 700px;
+  max-height: 300px;
+  margin: 0 auto;
+}
