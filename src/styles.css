@@ -2,19 +2,21 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  font-size: 16px;
-}
-
-.grenze-gotisch-<uniquifier> {
   font-family: "Grenze Gotisch", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 h1, p, form {
   text-align: center;
 }
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+font-size: 22px;
+}
+
 
 form {
   width: 60vw;
