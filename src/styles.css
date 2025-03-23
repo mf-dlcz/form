@@ -2,8 +2,14 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
+}
+
+.grenze-gotisch-<uniquifier> {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 h1, p, form {
@@ -14,5 +20,11 @@ form {
   width: 60vw;
   max-width: 700px;
   max-height: 300px;
+  margin: 0 auto;
+}
+
+div, img {
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
 }
